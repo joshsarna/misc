@@ -20,3 +20,9 @@ points.each do |element|
 end
 
 puts other_total
+
+# Method 4 (from Heather C)
+
+sum = 0 
+points.each {|number| sum += number }
+p sum
